@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Roboto' ;
+}
+
+.contener{
+    margin: 0 auto;
+    width: 1240px;
+
+}
+
+.car{
+    display: block;
+    margin: 0 auto;
+}
+
+.block{
+    margin: 0 auto 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span{
+    color: #707070;
+    font-size: 20px;
+}
+
+.h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.block-left{
+    margin-right: 177px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 100px;
+    width: auto;
+}
+
+.chanch_color{
+    display: none;
+    margin-right: 70px;
+}
+
+.chanch_color span{
+    margin-bottom: 7px;
+    display: block;
+}
+
+.salon_color{
+    display: flex;
+    align-items: center;
+    width: 138px;
+    justify-content: space-between;
+}
+
+.color_black{
+    height: 36px;
+    width: 36px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.color_silver{
+    height: 36px;
+    width: 36px;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+}
+
+.color_gold{
+    height: 36px;
+    width: 36px;
+    background-color: #E6DDD0;
+    border-radius: 50%;
+}
+
+.block1{
+    display: flex;
+    margin-right: 54px;
+}
+
+.block1-left span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+    margin-right: 34px;
+}
+
+.block1-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block1-right img:nth-child(1){
+    margin-bottom: 6px;
+    margin-top: 15px;
+}
+
+.block4{
+    margin-right: 54px;
+}
+
+.block4 span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.div-check{
+    padding: 3px;
+    width: 39px;
+    height: 24px;
+    background-color:#9a9a9a;
+    border-radius: 11px;
+}
+
+.round{
+    background-color: white;
+    height: 18px;
+    width: 18px;
+    border-radius: 20px;
+    transition: 500ms ease;
+}
+
+.block6 span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.w1{
+    padding: 3px;
+    padding-left: 18px;
+    width: 39px;
+    height: 24px;
+    background-color:blue;
+    border-radius: 11px;
+}
+
+
+/* ----------------------------wheel------------------------------- */
+
+.wheel1{
+    position: absolute;
+    height: 110px;
+    top: 310px;
+    left: 473px;
+    animation: rotate 999999999s;
+}
+
+.wheel2{
+    position: absolute;
+    height: 110px;
+    top: 310px;
+    left: 920px;
+    animation: rotate 999999999s;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999deg);
+    }
+
+    75%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ----------------------- open_door ------------------------------- */
+
+.open_door{
+    width: 30px;
+    height: 7px;
+    position: absolute;
+    top: 290px;
+    left: 750px;
+}
+
+/* ------------------------ ----------------------------------- */
+
+.active{
+    background-color: blue;
+    padding: 3px 3px 3px 18px;
+}
+
+.anactive{
+    background-color:#9a9a9a ;
+    padding: 3px;
+    width: 39px;
+    height: 24px;
+    border-radius: 11px;
+}
+
+/* ----------------------------------------------------------- */
+
+.car_salon_blakc, .car_salon_gold, .car_salon_silver{
+    display: none;
+}
